@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freesky's world - 首页</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="nav-logo">
+            <a href="index.html">Freesky's world</a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html" class="active">首页</a></li>
+            <li><a href="pages/learning.html">学习天地</a></li>
+            <li><a href="pages/life.html">生活碎片</a></li>
+            <li><a href="pages/music.html">Music</a></li>
+        </ul>
+        <div class="nav-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <!-- 轮播图 -->
+    <section class="carousel">
+        <div class="carousel-track" id="carouselTrack">
+            <div class="carousel-slide active">
+                <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1200&h=600&fit=crop" alt="Mountain landscape">
+                <div class="carousel-caption">
+                    <h2>探索世界</h2>
+                    <p>记录旅途中的美好瞬间</p>
+                </div>
+            </div>
+            <div class="carousel-slide">
+                <img src="https://images.unsplash.com/photo-1519681393784-d120267933ba?w=1200&h=600&fit=crop" alt="Starry night">
+                <div class="carousel-caption">
+                    <h2>仰望星空</h2>
+                    <p>梦想照亮前行的路</p>
+                </div>
+            </div>
+            <div class="carousel-slide">
+                <img src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=1200&h=600&fit=crop" alt="Nature">
+                <div class="carousel-caption">
+                    <h2>感受自然</h2>
+                    <p>万物皆有诗意</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-btn prev" id="carouselPrev">&lt;</button>
+        <button class="carousel-btn next" id="carouselNext">&gt;</button>
+        <div class="carousel-dots" id="carouselDots"></div>
+    </section>
+
+    <!-- 主要内容 -->
+    <main class="home-content">
+        <h1 class="typewriter" id="typewriter"></h1>
+        <p class="subtitle">欢迎来到我的个人世界</p>
+        <div class="intro">
+            <p>你好！我是 Freesky，一个热爱技术、喜欢记录生活的人。</p>
+            <p>在这里，你可以找到我的学习笔记、生活点滴和喜欢的音乐。</p>
+        </div>
+    </main>
+
+    <!-- Bugcat Capoo 彩蛋 -->
+    <div class="capoo-easter-egg">
+        <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbzB3aHViYWR6eXNxcXFtcWJ2bDdtcWpsZnJxYmVmc2Q4MnE3N2ZyNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/c7cRQ94h0mDKU/giphy.gif"
+             alt="Bugcat Capoo"
+             title="发现了一只咖波！">
+    </div>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <p>&copy; 2026 Freesky's world. All rights reserved.</p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
